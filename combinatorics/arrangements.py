@@ -35,10 +35,6 @@ def factorial(n):
     return n * factorial(n - 1)
 
 
-def permutations(n):
-    return factorial(n)
-
-
 def arrangements(n, k):
     arrangements_count = factorial(n) // factorial(n - k)
     return arrangements_count
